@@ -1,0 +1,237 @@
+
+#sect-a{
+    height: 650px;
+    width: 1200px;
+    background-image: url(asset/Hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main{
+    width: 1000px;
+    justify-content: center;
+}
+
+#sect-a .main .image-a{
+    height: 200px;
+    width: 200px;
+    margin-left: 450px;
+}
+#sect-a .main .title-a{
+    font-size: 70px;
+    text-align: center;
+}
+#sect-a .main .subtitle-a{
+    font-size: medium;
+    text-align: center;
+    opacity: 0.7;
+}
+#sect-a .main .butn-a{
+    height: 50px;
+    width: 250px;
+    font-size: 20px;
+    margin-left: 350px;
+    margin-bottom: 50px;
+    background-color:black;
+    color:white;
+    border-radius: 4px;
+}
+#sect-b{
+    width: 1200px;
+    height: 1200px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 100px;
+}
+
+#sect-b .main-b{
+    width: 850px;
+}
+.subtitle-b{
+    opacity: 0.7;
+}
+#sect-b .parent{
+    width: 1000px;
+    margin-top: 40px;}
+#sect-b .box-a{
+    display: flex;
+    margin-top: 50px;
+    gap: 250px;
+}
+#sect-b .box-a .main-c{
+    margin-left: 30px;
+    height: 250px;
+    width: 400px;
+    text-align: left;
+    opacity: 0.7;
+}
+#sect-b .box-a .main-c .image-b{
+    height: 200px;
+    width: 250px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.butn-b{
+    height: 40px;
+    width: 150px;
+}
+#sect-c{
+    height: 800px;
+    width: 1200px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.subtitle-c{
+    width: 800px;
+    text-align: center;
+    margin-left: 200px;
+    font-size: large;
+    opacity: 0.7;
+}
+#sect-c .video{
+    padding: 10px 10px 10px 10px;
+    border: black;
+    border-radius: 4%;
+}
+#sect-d{
+    height:auto;
+    width:auto;
+    text-align: center;
+    font-size: 20px;
+    height: 550px;
+    width: 1200px;
+    justify-content: center;
+
+}
+#sect-d .main-d{
+    display:flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+#sect-d .main-d .box-b{
+    background-color: antiquewhite;
+    height: 300px;
+    width: 300px; 
+    padding: 15px 15px 10px 10px;
+    text-align: left;
+    border-radius: 5%;
+}
+#sect-d .main-d .box-c{
+    background-color: lightskyblue;
+    height: 300px;
+    width: 300px;
+    padding: 15px 15px 10px 10px;
+    text-align: left;
+    border-radius: 5%;
+}
+#sect-d .main-d .box-d{
+    background-color: bisque;
+    height: 300px;
+    width: 300px;
+    padding: 15px 15px 10px 10px;
+    text-align: left;
+    border-radius: 5%;
+}
+.butn-c{
+    border: none;
+    text-decoration: underline;
+    background: none;
+}
+#sect-e{
+    width: 1200px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    font-size: 20px;
+
+}
+#sect-e .box-f{
+    display: flex;
+    border: solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+    height: 200px;
+    width: 1000px;
+    margin-left: 100px;
+}
+.image-e{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.main-f{
+    text-align: left;
+    margin-left: 100px;
+}
+.butn-e{
+    border: none;
+    text-decoration: underline;
+}
+.box-g{
+    background-image: url(asset/handshake.jpg);
+    height: 250px;
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding-top: 50px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.feed{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+input[type="textarea"]{
+    height: 60px;
+    width: 600px;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+input[type="submit"]{
+    height: 60px;
+    width: 130px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+footer{
+    background-color: oldlace;
+    width: 1000px;
+    height: 100px;
+    margin-top: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    gap: 350px;
+}
+footer .icon{
+    gap: 40px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .icon .image-f{
+    height: 40px;
+    width: 40px;
+}
